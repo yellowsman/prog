@@ -1,0 +1,1 @@
+console.table(document.getElementById("lyrics").innerHTML.replace(/<br><br>/g,"\n\n").replace(/<br>/g,"\n").replace(/amp;/g,""));
